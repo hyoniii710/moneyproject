@@ -1,0 +1,55 @@
+/* 추가된 CSS 규칙 */
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* 기존 CSS 규칙 유지 */
+.transaction {
+  border: 1px solid gray;
+  padding: 10px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 나머지 CSS 규칙들도 유지됨 */
+
+.expense {
+  /* 지출에 대한 스타일 속성들... */
+}
+
+.income {
+  /* 수입에 대한 스타일 속성들... */
+}
+
+.vertical-align {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.delete_button {
+  padding: 5px 15px;
+  background-color: yellowgreen;
+  color: #282828;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  font-weight: 600;
+  width: 60px;
+  height: 25px;
+}
+.date_p,
+.text_p {
+  text-align: left;
+}
+
+.income_p {
+  padding-top: 50px;
+  text-align: right;
+}
+.underline {
+  border-top: 1px solid #000; /* 밑줄 스타일을 설정합니다 */
+  margin-top: 10px; /* 밑줄 위 여백을 조절합니다 */
+}

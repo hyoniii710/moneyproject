@@ -1,0 +1,117 @@
+.expense-tracker {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.expense-tracker h1 {
+  font-size: 20px;
+  color: cadetblue;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.expense-form {
+  text-align: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  display: block;
+}
+
+.expense-form input {
+  padding: 5px;
+  width: 150px;
+}
+
+.expense-list {
+  text-align: left;
+}
+
+.expense-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.expense-list li {
+  margin-bottom: 10px;
+}
+
+.expense-form-modal {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+
+.expense-form-modal > * {
+  margin: 15px 10px 0 20px;
+  height: 30px;
+}
+
+.modal-btn {
+  padding: 5px 15px;
+  background-color: gray;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.totals {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.total-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #7e7d7d;
+  padding-bottom: 5px;
+}
+.total-asset {
+  text-align: left;
+  margin-left: 20px;
+}
+.separator {
+  width: 1px;
+  height: calc(100% - 20px); /* 100%에서 위아래 공백 20px를 뺀 높이 설정 */
+  background-color: #7e7d7d;
+  margin: 20px 10px; /* 위와 왼쪽 여백 20px, 오른쪽 여백 10px 설정 */
+}
+
+.income-money,
+.expense-money {
+  /* border: 1px solid #7e7d7d; */
+  padding: 10px;
+  text-align: center;
+  width: 150px;
+}
+.income-money p {
+  color: black;
+}
+
+.income-money {
+  /* background-color: #99ff99; */
+  color: mediumseagreen;
+  font-weight: 600;
+}
+.expense-money p {
+  color: black;
+}
+
+.expense-money {
+  /* background-color: #ff9999; */
+  color: palevioletred;
+  font-weight: 600;
+}
+.total_list {
+  font-size: 20px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+/* Add any additional styles you may have here. */
