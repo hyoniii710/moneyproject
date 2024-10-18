@@ -98,7 +98,11 @@ function App() {
   return (
     <Layout className="layout">
       <div className="expense-tracker">
-        <h1>2023 자산 현황 </h1>
+        <h1>
+          <p>&#127808;</p>
+          <p>2024 자산 현황</p>
+          <p>&#127808;</p>{" "}
+        </h1>
         <div className="total-asset">
           <h2>{(totalIncome + totalExpense).toLocaleString()}원</h2>
         </div>
