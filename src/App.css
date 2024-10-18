@@ -4,6 +4,20 @@
   padding: 20px;
   text-align: center;
 }
+h1 {
+  font-size: 2em;
+  text-align: center;
+  margin: 10px 5px;
+  border-bottom: 0.5px solid rgb(234, 234, 234);
+  display: flex; /* 플렉스박스를 사용해 가로 정렬 */
+  justify-content: center; /* 가운데 정렬 */
+  align-items: center; /* 세로 정렬 */
+  gap: 10px; /* 요소 사이에 간격 추가 (선택 사항) */
+}
+
+h1 p {
+  margin: 0; /* 각 <p> 요소의 기본 마진 제거 */
+}
 
 .expense-tracker h1 {
   font-size: 20px;
